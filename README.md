@@ -1,5 +1,5 @@
-# node-time-ago
-Simple time ago function for node that actually works!
+# node-time-ago [![Build Status](https://travis-ci.org/thatisuday/node-time-ago.svg?branch=master)](https://travis-ci.org/thatisuday/node-time-ago)
+Simple time ago function for node.js **that actually works**!
 
 ***
 
@@ -7,7 +7,7 @@ Simple time ago function for node that actually works!
 npm install --save node-time-ago
 ```
 
-Use `timestamp`, `Date instance`, `iso8601 date` or `any valid parsable date string` as input.
+Use `timestamp`, `Date Instance`, `iso8601 date` or `any valid parsable date string` as input.
 
 ```
 var timeAgo = require('node-time-ago');

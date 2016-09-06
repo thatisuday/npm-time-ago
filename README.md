@@ -1,4 +1,6 @@
-# node-time-ago [![Build Status](https://travis-ci.org/thatisuday/node-time-ago.svg?branch=master)](https://travis-ci.org/thatisuday/node-time-ago)
+# node-time-ago [![Build Status](https://img.shields.io/travis/thatisuday/node-time-ago.svg?style=flat-square)](https://travis-ci.org/thatisuday/node-time-ago) [![npm downloads](https://img.shields.io/npm/dt/node-time-ago.svg?style=flat-square)](https://www.npmjs.com/package/node-time-ago) [![npm version](https://img.shields.io/npm/v/node-time-ago.svg?style=flat-square)](https://www.npmjs.com/package/node-time-ago) [![npm dependencies](https://img.shields.io/david/thatisuday/node-time-ago.svg?style=flat-square)](https://www.npmjs.com/package/node-time-ago)
+
+
 Simple time ago function for node.js **that actually works**!
 
 ***

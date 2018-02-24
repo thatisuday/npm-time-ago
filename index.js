@@ -1,11 +1,4 @@
-// Load dependencies
-const
-	_ 		= 	require('lodash')
-;
-
-/***************************************************/
-
-var settings = {
+const settings = {
 	now				: 	"just now",
 	seconds			: 	"%d second ago",
 	minute 			: 	"a minute ago",
@@ -22,7 +15,7 @@ var settings = {
 
 /***************************************************/
 
-var inWords = function(inpDate){
+function inWords(inpDate) {
 	
 	// Get time distance from now (in milliseconds)
 	var timeDist 	= 	new Date().getTime() - inpDate.getTime();
@@ -65,7 +58,7 @@ var inWords = function(inpDate){
 /***************************************************/
 
 
-var getAgoString = function(input){
+function getAgoString(input) {
 	if(input instanceof Date){
 		return inWords(input);
 	}
